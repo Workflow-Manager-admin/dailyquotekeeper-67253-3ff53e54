@@ -1,0 +1,5 @@
+{
+  "task_description": "{'description': 'A simple Flask web app for users to submit, view, and save daily quotes in memory without any database or external frontend frameworks.', 'containers': [{'container_name': 'flask_backend', 'platform': 'backend', 'framework': 'flask', 'description': 'Handles all backend logic and serves HTML pages for the Daily Quote Saver app. Stores quotes in memory using a Python list and exposes three routes for homepage, adding quotes, and viewing all quotes.', 'interfaces': "HTTP routes: '/', '/add', '/quotes'", 'relative_path': 'flask_backend_workspace', 'dependencies': [], 'container_type': 'backend', 'container_details': 'In-memory data store (Python list), routes render simple HTML templates, no database or external frontend frameworks used.'}], '3rd_party_services': [], 'figma_components': '', 'manifest_path': '/home/kavia/workspace/code-generation/.project_manifest.yaml'}",
+  "tasks": {},
+  "next_task_id": 1
+}

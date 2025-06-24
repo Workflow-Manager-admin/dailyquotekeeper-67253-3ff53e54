@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Saved Quotes</title>
+</head>
+<body>
+    <h1>All Saved Quotes</h1>
+    {% if quotes %}
+        <ul>
+        {% for quote in quotes %}
+            <li>{{ quote|e }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No quotes saved yet.</p>
+    {% endif %}
+    <br>
+    <a href="{{ url_for('quotes.home') }}">Back to home</a>
+</body>
+</html>

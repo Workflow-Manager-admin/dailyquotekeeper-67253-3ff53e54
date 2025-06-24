@@ -1,0 +1,1 @@
+# Ensures module initialization for routes package
