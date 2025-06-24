@@ -1,0 +1,4 @@
+{
+    "command": "pytest",
+    "working_directory": "/home/kavia/workspace/code-generation/dailyquotekeeper-67253-3ff53e54/flask_backend_workspace/flask_backend"
+}
